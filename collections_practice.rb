@@ -36,3 +36,13 @@ end
 def find_a(array)
   array.select { |str| str.start_with?('a')}
 end
+
+def add_s(array)
+  array.each do |item|
+    if item != array[1]
+      "#{item}s"
+    else
+      item
+    end
+  end
+end
