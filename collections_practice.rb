@@ -21,7 +21,6 @@ def swap_elements(array)
   array[1] = temptwo
   array[2] = tempone
 end
-end
 
 def reverse_array(array)
   array.reverse
