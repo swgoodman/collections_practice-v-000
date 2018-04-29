@@ -42,7 +42,7 @@ def add_s(array)
     if item != array[1]
       "#{item}s"
     else
-      item
+      "#{item}"
     end
   end
 end
