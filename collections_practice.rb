@@ -20,7 +20,3 @@ def swap_elements(array)
   second = third
   third = array[2]
 end
-
-
-
-end
