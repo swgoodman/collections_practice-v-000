@@ -24,9 +24,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |item|
-    item
-  end
+  array.map!.with_index { |letter, index| index % 3 == 0 ? letter ==  "$" }
 end
 
 def sum_array(array)
