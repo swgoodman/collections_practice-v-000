@@ -16,10 +16,17 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  if array [2]
+  tempone = array[1]
+  temptwo = array[2]
+  array[1] = temptwo
+  array[2] = tempone
+
 end
 
 def reverse_array(array)
   array.reverse
+    end
 end
-end
+
+def kesha_maker(array)
+  array.each do |item|
