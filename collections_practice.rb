@@ -16,9 +16,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-  one == array[2]
-  binding.pry
-
+  one == array[1]
+  two == array[2]
+  one,two = two,one
 end
 
 def reverse_array(array)
