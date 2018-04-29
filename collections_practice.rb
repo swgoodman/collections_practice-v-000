@@ -38,7 +38,7 @@ def find_a(array)
 end
 
 def add_s(array)
-  array.each do |item|
+  array.map do |item|
       "#{item}s"
   end
 end
