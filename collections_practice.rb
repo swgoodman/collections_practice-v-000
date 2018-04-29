@@ -39,10 +39,6 @@ end
 
 def add_s(array)
   array.each do |item|
-    if item != array[1]
       "#{item}s"
-    else
-      "#{item}"
-    end
   end
 end
