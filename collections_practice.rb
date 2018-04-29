@@ -15,7 +15,7 @@ def sort_array_char_count(array)
   array.sort_by { |item| item.length}
 end
 
-def swap_elements(array)
+def swap_elements_from_to(array, index, destination_index)
   tempone = array[1]
   temptwo = array[2]
   array[1] = temptwo
